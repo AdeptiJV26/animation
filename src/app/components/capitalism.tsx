@@ -41,7 +41,7 @@ export default function SAOConverter() {
               </label>
               <button
                 onClick={handleCopy}
-                className="text-md font-black text-amber-500 px-3 py-3 border-4 border-cyan-500 rounded-lg hover:border-amber-500 hover:bg-cyan-500 hover:text-white-500 transition-all hover:text-white  active:scale-95 uppercase"
+                className="text-md font-black text-white px-3 py-3 border-4 border-cyan-500 bg-cyan-500/20 hover:bg-cyan-500/50 rounded-lg hover:border-purple-500  hover:text-white-500 transition-all hover:text-white  active:scale-95 uppercase"
               >
                 Copy Output
               </button>
