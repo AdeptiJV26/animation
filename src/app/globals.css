@@ -1,12 +1,28 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-bg1: var(--background-primary);
+  --color-fg1: var(--background-secondary);
+  --color-txt1: var(--text-primary-1);
+  --color-header1: var(--header-primary-1);
+  --color-accent: var(--text-accent-mode);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+:root {
+  --background-primary: #121212;
+  --background-secondary: #f5f7fa;
+  --text-primary-1: #e0f7fa;
+  --header-primary-1: #faf8f6;
+  --text-accent-mode: #C49000;
+}
+
+.dark {
+  --background-primary: #f5f7fa;
+  --background-secondary: #121212;
+  --text-primary-1: #e0f7fa;
+  --header-primary-1: #faf8f6;
+  --text-accent-mode: #C49000;
 }
