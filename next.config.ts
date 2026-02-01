@@ -16,6 +16,15 @@ const nextConfig: NextConfig = {
         source: "/autoformatname",
         destination: "/renders/conversion/autoformatname",
       },
+      {
+        source: "/pending",
+        destination: "/renders/pending",
+      }
+      ,
+      {
+        source: "/users",
+        destination: "/renders/users",
+      }
     ];
   },
 };

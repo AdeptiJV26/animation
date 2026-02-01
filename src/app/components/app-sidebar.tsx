@@ -18,6 +18,8 @@ const items = [
   { title: "Animations", url: "/animation", icon: null },
   { title: "Capitalization", url: "/autocapital", icon: null },
   { title: "DL Formatter", url: "/autoformatname", icon: null },
+  { title: "Company Office", url: "/users", icon: null },
+  { title: "Comming Soon", url: "/pending", icon: null },
 ];
 
 export function AppSidebar() {
@@ -35,7 +37,10 @@ export function AppSidebar() {
             <SidebarMenu className="gap-4">
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton  className="text-xl h-fit py-2 hover:bg-accent" asChild>
+                  <SidebarMenuButton
+                    className="text-xl h-fit py-2 hover:bg-accent"
+                    asChild
+                  >
                     <Link href={item.url}>
                       <span>{item.title}</span>
                     </Link>
