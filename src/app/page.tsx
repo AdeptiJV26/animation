@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Folder, Play, Type, SquircleDashed } from "lucide-react";
+import dynamic from 'next/dynamic';
+
 
 const applications = [
   {

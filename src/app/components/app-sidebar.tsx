@@ -19,7 +19,7 @@ const items = [
   { title: "Capitalization", url: "/autocapital", icon: null },
   { title: "DL Formatter", url: "/autoformatname", icon: null },
   { title: "Company Office", url: "/users", icon: null },
-  { title: "Comming Soon", url: "/pending", icon: null },
+  { title: "Coming Soon", url: "/pending", icon: null },
 ];
 
 export function AppSidebar() {
